@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <xpath>*/ThinkTreeDef[defName = "Animal"]/thinkRoot/subNodes/li[18]/subNodes/li[3]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThinkTreeDef[defName = "Animal"]/thinkRoot/subNodes/li[18]/subNodes</xpath>
+    <value>
+      <li Class="JobGiver_Haul" />
+    </value>
+  </Operation>
+</Patch>
