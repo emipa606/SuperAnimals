@@ -1,5 +1,8 @@
 # Changelog for SuperAnimals
 
+1.5.0 - Reactivated mod, as the original was removed
+
+
 1.4.2 - Last update, added end-of-life message
 
 
